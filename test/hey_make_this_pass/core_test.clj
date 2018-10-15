@@ -7,9 +7,9 @@
     (is (= 1 1))))
 
 (deftest even-test
-  (testing "Help, I fail!"
+  (testing "Determines if a number is even"
     (is (even 100))))
 
 (deftest odd-test
-  (testing "Help, I fail!"
+  (testing "Determines if a number is odd"
     (is (odd 99))))
