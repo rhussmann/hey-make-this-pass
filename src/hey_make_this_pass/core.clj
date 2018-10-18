@@ -14,3 +14,8 @@
   "Is this number odd?"
   [n]
   (not (even n)))
+
+(defn sort-it
+  "Sort the input collection"
+  [x]
+  x)

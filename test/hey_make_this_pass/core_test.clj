@@ -13,3 +13,7 @@
 (deftest odd-test
   (testing "Determines if a number is odd"
     (is (odd 99))))
+
+(deftest sort-test
+  (testing "Sorts a collection of values"
+    (is (= [1 2 3 4] (sort-it [4 3 2 1])))))
